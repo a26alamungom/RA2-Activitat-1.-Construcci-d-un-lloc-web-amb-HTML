@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacte - Associació Nou Camí</title>
+</head>
+<body>
+  <header>
+    <h1>Contacte</h1>
+    <nav>
+      <a href="index.html">Inici</a>
+      <a href="informacio.html">Informació</a>
+      <a href="contacte.html">Contacte</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Dades de contacte</h2>
+      <p>Carrer de la Salut, 5, Barcelona</p>
+      <p>Telèfon: 93 000 00 00</p>
+      <p>Correu: info@noucami.example</p>
+    </section>
+
+    <section>
+      <h2>Formulari</h2>
+      <form>
+        <p>
+          <label for="nom">Nom:</label>
+          <input type="text" id="nom" name="nom" required>
+        </p>
+        <p>
+          <label for="correu">Correu electrònic:</label>
+          <input type="email" id="correu" name="correu" required>
+        </p>
+        <p>
+          <label for="motiu">Motiu de contacte:</label>
+          <select id="motiu" name="motiu">
+            <option>Necessito ajuda</option>
+            <option>Sóc familiar</option>
+            <option>Vull col·laborar</option>
+            <option>Altres</option>
+          </select>
+        </p>
+        <p>
+          <label for="missatge">Missatge:</label>
+          <textarea id="missatge" name="missatge" required></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="condicions" name="condicions" required>
+          <label for="condicions">Accepto les condicions</label>
+        </p>
+        <button type="submit">Envia</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Associació Nou Camí - 2026</p>
+  </footer>
+</body>
+</html>
